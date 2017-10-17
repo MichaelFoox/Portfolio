@@ -66,16 +66,8 @@ p{
 .nav-wrap-item{
     padding-left: 10px;
     padding-right: 10px;
-}
-
-a{
     color: #777777;
     font-weight: bold;
-}
-
-a:active{
-    color: #6674e2;
-    border-bottom: solid 1px;
 }
 
 /*----------SLIDER-------------*/
@@ -164,6 +156,10 @@ a:active{
     justify-content: center;
 }
 
+.pdd{
+    padding-top: 3%;
+}
+
 .title-wrap{
     padding-top: 20px;
 }
@@ -192,8 +188,106 @@ a:active{
     justify-content: flex-start;
     align-items: center;
 }
+/*---------GALLERY---------*/
 
+.gallery{
+    margin-top: 4%;
+}
 
+.gallery-wrap{
+    height: 35vh;
+    width: 100%;
+    margin-left: 0;
+}
 
+.img-wrap{
+    height: 100%;
+}
+
+#image1{
+    background: url(../img/gallery1.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image2{
+    background: url(../img/gallery2.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image3{
+    background: url(../img/gallery3.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image4{
+    background: url(../img/gallery4.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image5{
+    background: url(../img/gallery5.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image6{
+    background: url(../img/gallery6.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image7{
+    background: url(../img/gallery7.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image8{
+    background: url(../img/gallery8.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+#image1:hover,
+#image2:hover,
+#image3:hover,
+#image4:hover,
+#image5:hover,
+#image6:hover,
+#image7:hover,
+#image8:hover{
+    -webkit-transition: background 0.9s ease-in-out;
+    -moz-transition: background 0.9s ease-in-out;
+    transition: background 0.9s ease-in-out;
+    opacity: 0.6;
+}
+
+#image1:hover{
+    background: url(../img/gallery1.png) center center;
+
+}
+#image2:hover{
+    background: url(../img/gallery2.png) center center;
+}
+
+#image3:hover{
+    background: url(../img/gallery3.png) center center;
+}
+
+#image4:hover{
+    background: url(../img/gallery4.png) center center;
+}
+
+#image5:hover{
+    background: url(../img/gallery5.png) center center;
+}
+
+#image6:hover{
+    background: url(../img/gallery6.png) center center;
+}
+
+#image7:hover{
+    background: url(../img/gallery7.png) center center;
+}
+
+#image8:hover{
+    background: url(../img/gallery8.png) center center;
+}
 
 
