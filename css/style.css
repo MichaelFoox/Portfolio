@@ -1,4 +1,7 @@
 /* -----TEXT-----*/
+body{
+    font-size: 14px;
+}
 
 .text-color-w{
     color: #ffffff;
@@ -290,4 +293,34 @@ p{
     background: url(../img/gallery8.png) center center;
 }
 
+/*--------ABOUT AS--------*/
 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.text{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.about-wrap{
+    padding-top: 5%;
+    height: 60vh;
+}
+
+.info-about-wrap{
+    padding-top: 15px;
+}
+
+.slide-wrap{
+    height: 40vh;
+}
+
+#slide1{
+    background: url("../img/slide1.png") center center;
+    background-size: cover;
+}
